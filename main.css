@@ -38,13 +38,6 @@ body{
     color: white;
 }
 
-#social img {
-    width: 25px;
-    height: 25px;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-}
-
 #introduction{
     background-color: green;
     display: flex;
@@ -69,6 +62,26 @@ body{
 }
 
 
+#social{
+    display: flex;
+    flex-direction: row;
+}
+
+#social img {
+    width: 25px;
+    height: 25px;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+}
+
+
+
+.section_title{
+    font-size: 25px;
+    font-family: 'Lato', arial, sans-serif;
+    font-weight: 500;
+}
+
 #skills{
     display: flex;
     flex-direction: column;
@@ -83,11 +96,14 @@ body{
 }
 
 .skills_group{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding: 15px;
     background-color: cornflowerblue;
     margin: 25px;
+    height: auto;
+}
+
+.skill_icon{
+    width: 60px;
+    height: 60px;
+    position: relative;
 }
