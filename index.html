@@ -31,9 +31,9 @@
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                 ut aliquip ex ea commodo consequat.</p>
             <div id="social">
-                <img src="assets/icons/linkedin.png">
-                <img src="assets/icons/github.png">
-                <img src="assets/icons/mail.png">
+                <img src="assets/icons/linkedin.png" onclick="location.href = 'https://www.linkedin.com/in/javrom95/'">
+                <img src="assets/icons/github.png" onclick="location.href = 'https://github.com/DraculCodes'">
+                <img src="assets/icons/mail.png" onclick="location.href = 'https://www.linkedin.com/in/javrom95/'">
             </div>
         </div>
     </div>
@@ -45,7 +45,21 @@
 
     <p class="section_title">Skills</p>
     <div id="skills_groups">
-
+        <div class="skills_group">
+            <div class="skills_group_content">
+                <div class="skills_img_header"><img class="skill_icon" src="assets/icons/python.png"></div>
+                <div class="skills_body">
+                    <p>Python</p>
+                    <div class="skill_list">
+                        <li>PySpark</li>
+                        <li>Scikit-Learn</li>
+                        <li>TensorFlow</li>
+                        <li>Pandas</li>
+                        <li>Flask</li>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="skills_group">
             <div class="skills_group_content">
                 <div class="skills_img_header"><img class="skill_icon" src="assets/icons/java.png"></div>
@@ -114,38 +128,78 @@
 
         <div class="skills_group">
             <div class="skills_group_content">
-                <div class="skills_img_header"><img class="skill_icon" src="assets/icons/python.png"></div>
+                <div class="skills_img_header"><img class="skill_icon" src="assets/icons/hadoop2.png"></div>
                 <div class="skills_body">
-                    <p>Python</p>
+                    <p>Hadoop Stack</p>
                     <div class="skill_list">
-                        <li>PySpark</li>
-                        <li>Scikit-Learn</li>
-                        <li>TensorFlow</li>
-                        <li>Pandas</li>
-                        <li>Flask</li>
+                        <li>Pyspark</li>
+                        <li>HDFS</li>
+                        <li>Kafka</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills_group">
+            <div class="skills_group_content">
+                <div class="skills_img_header"><img class="skill_icon" src="assets/icons/other_skills.png"></div>
+                <div class="skills_body">
+                    <p>Others</p>
+                    <div class="skill_list">
+                        <li>Debian</li>
+                        <li>Git</li>
+                        <li>Scrum</li>
+                        <li>PowerBI</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills_group">
+            <div class="skills_group_content">
+                <div class="skills_img_header"><img class="skill_icon" src="assets/icons/programming.png"></div>
+                <div class="skills_body">
+                    <p>Web Development</p>
+                    <div class="skill_list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>Angular</li>
                     </div>
                 </div>
             </div>
         </div>
 
+
+
     </div>
 </div>
 
 <div id="projects">
-    <p class="section_title">Projects</p>
+    <p class="section_title">Featured Projects</p>
     <div id="projects_group">
         <div class="project">
             <div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/FvrqVUSh0zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <p class="project_name">Project 1</p>
+            <p class="project_name">Cauule</p>
             <p class="project_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco. Code here</p>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <button class="repo_btn"><a href="https://github.com/DraculCodes/Cauule">Code</a> </button>
             <div class="project_tech_list">
-                <p class="project_tech">Tech1</p>
-                <p class="project_tech">Tech2</p>
-                <p class="project_tech">Tech3</p>
-                <p class="project_tech">Tech4</p>
-                <p class="project_tech">Tech5</p>
+                <p class="project_tech">Angular</p>
+                <p class="project_tech">Firebase</p>
+            </div>
+        </div>
+        <div class="project">
+            <div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/FvrqVUSh0zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <p class="project_name">Robotics Club UEM Webpage</p>
+            <p class="project_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <button class="repo_btn"><a href="https://github.com/DraculCodes/roboticsclub">Code</a></button>
+            <button class="repo_btn"><a href="https://draculcodes.github.io/roboticsclub/">Demo</a></button>
+            <div class="project_tech_list">
+                <p class="project_tech">HTML</p>
+                <p class="project_tech">CSS</p>
+                <p class="project_tech">Javascript</p>
             </div>
         </div>
         <div class="project">
@@ -154,18 +208,7 @@
             <p class="project_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco. Code here</p>
-            <div class="project_tech_list">
-                <p class="project_tech">Tech1</p>
-                <p class="project_tech">Tech2</p>
-                <p class="project_tech">Tech3</p>
-            </div>
-        </div>
-        <div class="project">
-            <div class="video-responsive"><iframe width="560" height="315" src="https://www.youtube.com/embed/FvrqVUSh0zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <p class="project_name">Project 1</p>
-            <p class="project_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco. Code here</p>
+            <button class="repo_btn"><a href="https://github.com/DraculCodes/Cauule">Code</a></button>
             <div class="project_tech_list">
                 <p class="project_tech">Tech1</p>
                 <p class="project_tech">Tech2</p>
