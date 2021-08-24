@@ -12,6 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="14d50898-1068-40b9-8a1f-b7f7f11b7375" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +46,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/icons" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/icons" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,6 +64,8 @@
       <updated>1629728895232</updated>
       <workItem from="1629728896267" duration="2286000" />
       <workItem from="1629738738552" duration="5395000" />
+      <workItem from="1629790185025" duration="7187000" />
+      <workItem from="1629810818537" duration="6378000" />
     </task>
     <servers />
   </component>
@@ -77,5 +82,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="726" y="322" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629796835106">
+      <screen x="67" y="47" width="1853" height="1053" />
+    </state>
+    <state x="726" y="322" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.47.1853.1053/1920.0.1920.1080@67.47.1853.1053" timestamp="1629796835106" />
   </component>
 </project>
