@@ -1,2 +1,2 @@
-# My personal website.
+# My personal portfolio website.
 ## Still WIP
